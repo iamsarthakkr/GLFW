@@ -3,10 +3,8 @@ project "GLFW"
     language "C"
     staticruntime "on"
 
-    -- Output directories for binaries and intermediate files
-    location "%{wks.location}/build"
-    targetdir "%{wks.location}/bin/%{cfg.buildcfg}/%{prj.name}"
-    objdir "%{wks.location}/bin-int/%{cfg.buildcfg}/%{prj.name}"
+    targetdir "lib"
+    objdir "lib/int"
 
     -- Common files for all platforms
     files {

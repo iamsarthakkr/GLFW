@@ -2,6 +2,8 @@
 build
 build-*
 
+lib
+
 # Visual Studio clutter
 _ReSharper*
 *.sdf
