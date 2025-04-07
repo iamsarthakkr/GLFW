@@ -46,6 +46,7 @@ project "GLFW"
             "src/posix_module.c"
         }
         defines { "_GLFW_COCOA" }
+        toolset "clang"
 
     -- Debug configuration
     filter "configurations:Debug"
